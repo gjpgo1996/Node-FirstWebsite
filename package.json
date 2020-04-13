@@ -1,0 +1,25 @@
+{
+  "name": "Node-FirstWebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjpgo1996/Node-FirstWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gjpgo1996/Node-FirstWebsite/issues"
+  },
+  "homepage": "https://github.com/gjpgo1996/Node-FirstWebsite#readme",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
