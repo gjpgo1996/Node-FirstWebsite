@@ -12,9 +12,12 @@ app.set('view engine', 'ejs');
 
 // middlewares
 
+
 // routes
 app.use(require('./routes/index'));
+
 // static file
+app.use(express.static(path.join(__dirname, 'public')));
 
 // listening the server
 app.listen(app.get('port'), () => {
